@@ -1,9 +1,68 @@
+body{
+	font-size: 15px;
+}
 
+img{
+	width: 100%;
+}
 
+#first-nav-bar{
+	background-color: #a6a6a6;
+	float: right;
+}
 
+#first-nav-bar div{
+	display: inline;
+	float: right;
+	margin: 5px;
+}
 
+input{
+	border-radius: 10px;
+}
 
+input span{
+	float: left;
+}
 
+h2{
+	float: left;
+	padding-left: 20px;
+}
+#second-nav-bar h4{
+	float: right;
+}
+h2, h4{
+	margin: 15px 10px 30px;
+}
+#intro-copy{
+	font-size: 25px;
+	font-weight: bold;
+}
+ul{
+	padding: 0;
+	margin-bottom: 15%;
+}
+li{
+	list-style-type: none;
+	margin: 2% 0;
+}
+#pre-footer-wrapper{
+	background-color: #e6e6e6;
+	padding: 20px 0px;
+}
+.footer-header{
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+#footer-wrapper{
+	text-align: center;
+	font-size: 15px;
+}
+.item-wrapper h4{
+	margin: 2% 0 2%;
+}
 
 
 
