@@ -8,20 +8,41 @@
 <body>
 	<div id="wrapper" class="container-fluid">
 		<div id="first-nav-bar" class="col-md-12 col-sm-12 col-xs-12">
-			<div><input type="text" placeholder="enter search terms"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></div>
+			<div>
+				<form><input type="text" placeholder="enter search terms"><span id="search" class="glyphicon glyphicon-search" aria-hidden="true"></span></form>
+			</div>
 			<div><a href="#">My Account</a></div>
 			<div>12 <span class="glyphicon glyphicon-star" aria-hidden="true"></span></div>	
 		</div>
 		<div id="second-nav-bar" class="col-md-12 col-sm-12 col-xs-12">
-			<h2>A Big Title</h2>
-			<h4>Featured Items</h4>
-			<h4>Apparel</h4>
-			<h4>Accessories</h4>
-			<h4>Event</h4>
-			<h4>Home</h4>
+			<div class="col-md-3 col-sm-3 col-xs-6">
+				<h2>A Big Title</h2>
+			</div>
+			<div class="col-md-9 col-sm-9 hidden-xs">
+				<h4>Featured Items</h4>
+				<h4>Apparel</h4>
+				<h4>Accessories</h4>
+				<h4>Event</h4>
+				<h4>Home</h4>
+			</div>
+			<div class="hidden-lg hidden-md hidden-sm col-xs-6">	
+				<div id="button-group" class="btn-group">
+					<button id="main-btn" type="button" class="btn"><a href="#">Home</a></button>
+					<button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expandable="false">
+						<span class="caret"></span>
+						<!-- <span class="sr-only">Toggle Dropdown</span> -->
+					</button>
+					<ul class="dropdown-menu">
+						<li><a href="#">Event</a></li>
+						<li><a href="#">Accessories</a></li>
+						<li><a href="#">Apparel</a></li>
+						<li><a href="#">Featured Items</a></li>
+					</ul>
+				</div>
+			</div>		
 		</div>	
 		<div class="col-md-12 col-sm-12 hidden-xs" id="big-box-wrapper"><img src="http://placehold.it/600x150"></div>	
-		<div id="into-wrapper" class="col-md-12 col-sm-12 col-xs-12" >
+		<div id="intro-wrapper" class="col-md-12 col-sm-12 col-xs-12" >
 			<div id="intro-copy">Intro Copy Headline</div>
 			<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
 		</div>
@@ -63,10 +84,10 @@
 			<div class="col-md-3 col-sm-3 col-xs-12 footer">
 				<div class="footer-header">Quick Links</div>
 					<div>
-						<div><a href="#">Home</a></div>
-						<div><a href="#">Event</a></div>
-						<div><a href="#">Support</a></div>
-						<div><a href="#">Contact</a></div>
+						<div class="quick-links"><a href="#">Home</a></div>
+						<div class="quick-links"><a href="#">Event</a></div>
+						<div class="quick-links"><a href="#">Support</a></div>
+						<div class="quick-links"><a href="#">Contact</a></div>
 					</div>
 			</div>
 			<div class="col-md-6 col-sm-6 col-xs-12 footer">

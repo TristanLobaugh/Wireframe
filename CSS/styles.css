@@ -1,33 +1,46 @@
 body{
 	font-size: 15px;
 }
-
+.col-md-12{
+	padding-left: 0;
+	padding-right: 0;
+}
+.col-sm-12{
+	padding-left: 0;
+	padding-right: 0;
+}
+.col-xs-12{
+	padding-left: 0;
+	padding-right: 0;
+}
 img{
 	width: 100%;
 }
-
 #first-nav-bar{
 	background-color: #a6a6a6;
 	float: right;
 }
-
 #first-nav-bar div{
 	display: inline;
 	float: right;
 	margin: 5px;
 }
-
+form{
+	position: relative;
+}
 input{
 	border-radius: 10px;
+	text-align: center;
+	border: 2px solid black;
 }
-
-input span{
-	float: left;
+#search{
+	position: absolute;
+	left: 5px;
+	top: 30%;
 }
-
 h2{
 	float: left;
-	padding-left: 20px;
+	padding-left: 10px;
 }
 #second-nav-bar h4{
 	float: right;
@@ -35,21 +48,33 @@ h2{
 h2, h4{
 	margin: 15px 10px 30px;
 }
+#second-nav-bar div{
+	padding: 0;
+}
+#intro-wrapper{
+	margin: 15px 0;
+}
 #intro-copy{
 	font-size: 25px;
 	font-weight: bold;
 }
-ul{
+#four-box-wrapper ul{
 	padding: 0;
 	margin-bottom: 15%;
 }
-li{
+#four-box-wrapper li{
 	list-style-type: none;
 	margin: 2% 0;
+}
+.item-wrapper h4{
+	margin: 2% 0 2%;
 }
 #pre-footer-wrapper{
 	background-color: #e6e6e6;
 	padding: 20px 0px;
+}
+.quick-links{
+	margin: 10px 0;
 }
 .footer-header{
 	font-size: 25px;
@@ -60,10 +85,19 @@ li{
 	text-align: center;
 	font-size: 15px;
 }
-.item-wrapper h4{
-	margin: 2% 0 2%;
+.btn{
+	background-color: #fff;
+	border-radius: 0;
+	border: 2px solid black;
 }
-
+#main-btn{
+	width: 150px;
+	text-align: left;
+}
+#button-group{
+	float: right;
+	margin: 15px 0 30px;
+}
 
 
 
